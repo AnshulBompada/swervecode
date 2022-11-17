@@ -29,6 +29,10 @@ public class Swervesubsystem extends SubsystemBase {
       RightBack.setNeutralMode(NeutralMode.Brake);
       LeftFront.setNeutralMode(NeutralMode.Brake);
       LeftBack.setNeutralMode(NeutralMode.Brake);
+      r_RightFront.setNeutralMode(NeutralMode.Brake);
+      r_RightBack.setNeutralMode(NeutralMode.Brake);
+      r_LeftFront.setNeutralMode(NeutralMode.Brake);
+      r_LeftBack.setNeutralMode(NeutralMode.Brake);
   }
 
   public void swerve_mode(double x_speed, double y_speed, double orientation) {
